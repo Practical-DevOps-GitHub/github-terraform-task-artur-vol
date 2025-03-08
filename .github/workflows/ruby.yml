@@ -13,8 +13,8 @@ env:
     SECRETS_TOKEN: ${{ secrets.PAT }}
 
 on:
-  push:
-    branches: [ main, develop ]
+  # push:
+  #   branches: [ main, develop ]
   pull_request:
     branches: [ main, develop ]
   schedule:
